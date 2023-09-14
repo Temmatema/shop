@@ -1,0 +1,31 @@
+.contacts {
+	display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  padding: 100px 0;
+  margin: auto;
+  align-items: center;
+}
+
+.contacts form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contacts p {
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.contacts input {
+  padding: 5px 10px;
+}
+
+.contacts button {
+  display: block;
+  margin: 0 auto;
+  padding: 8px 24px;
+}

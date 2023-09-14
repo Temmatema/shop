@@ -1,0 +1,38 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  background-color: white;
+  gap: 20px;
+}
+
+.info img {
+  width: 300px;
+  height: auto;
+}
+
+.info b {
+  font-size: 24px;
+}
+
+.info_wrap {
+  width: 800px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.price_wrap {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.price_wrap button {
+  padding: 10px;
+  min-width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
